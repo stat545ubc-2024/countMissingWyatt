@@ -17,15 +17,15 @@ name: Xiang Zhang
 You can install the development version of this package from GitHub:
 
 ``` r
-devtools::install_github("stat545ubc-2024/countMissingWyatt", ref = "0.1.1")
-#> Downloading GitHub repo stat545ubc-2024/countMissingWyatt@0.1.1
+devtools::install_github("stat545ubc-2024/countMissingWyatt", ref = "1.0.0")
+#> Downloading GitHub repo stat545ubc-2024/countMissingWyatt@1.0.0
 #> lifecycle (1.0.3 -> 1.0.4) [CRAN]
 #> glue      (1.6.2 -> 1.8.0) [CRAN]
 #> withr     (2.5.0 -> 3.0.2) [CRAN]
 #> utf8      (1.2.2 -> 1.2.4) [CRAN]
 #> fansi     (1.0.2 -> 1.0.6) [CRAN]
 #> Installing 5 packages: lifecycle, glue, withr, utf8, fansi
-#> Installing packages into '/private/var/folders/7w/wpjhzm9d3mq12mgfgpfvbv400000gn/T/Rtmp36BA6I/temp_libpathbc8321f33c2f'
+#> Installing packages into '/private/var/folders/7w/wpjhzm9d3mq12mgfgpfvbv400000gn/T/Rtmp36BA6I/temp_libpathbc8371a1fd31'
 #> (as 'lib' is unspecified)
 #> Warning in readRDS(dest): lzma decoder corrupt data
 #> 
@@ -38,13 +38,13 @@ devtools::install_github("stat545ubc-2024/countMissingWyatt", ref = "0.1.1")
 #> fansi      1.0.4  1.0.6              TRUE
 #> installing the source packages 'lifecycle', 'glue', 'withr', 'utf8', 'fansi'
 #> ── R CMD build ─────────────────────────────────────────────────────────────────
-#> * checking for file ‘/private/var/folders/7w/wpjhzm9d3mq12mgfgpfvbv400000gn/T/RtmpZosYMB/remotes101ea74e579b/stat545ubc-2024-countMissingWyatt-e76eb8c/DESCRIPTION’ ... OK
+#> * checking for file ‘/private/var/folders/7w/wpjhzm9d3mq12mgfgpfvbv400000gn/T/RtmpdGJhyU/remotes11d385bff294a/stat545ubc-2024-countMissingWyatt-6f7530a/DESCRIPTION’ ... OK
 #> * preparing ‘countMissingWyatt’:
 #> * checking DESCRIPTION meta-information ... OK
 #> * checking for LF line-endings in source and make files and shell scripts
 #> * checking for empty or unneeded directories
-#> * building ‘countMissingWyatt_0.1.1.tar.gz’
-#> Installing package into '/private/var/folders/7w/wpjhzm9d3mq12mgfgpfvbv400000gn/T/Rtmp36BA6I/temp_libpathbc8321f33c2f'
+#> * building ‘countMissingWyatt_1.0.0.tar.gz’
+#> Installing package into '/private/var/folders/7w/wpjhzm9d3mq12mgfgpfvbv400000gn/T/Rtmp36BA6I/temp_libpathbc8371a1fd31'
 #> (as 'lib' is unspecified)
 ```
 
