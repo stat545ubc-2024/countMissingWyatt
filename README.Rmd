@@ -1,0 +1,46 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# countMissingWyatt
+
+This package provides tools for analyzing and summarizing missing data across groups in a dataset. It includes functions to group data by a specified column and count the number of missing values in each column within each group, simplifying data quality assessments.
+
+## Student Info
+
+name: Xiang Zhang 
+
+## Installation
+
+You can install the development version of this package from GitHub:
+
+```{r}
+devtools::install_github("stat545ubc-2024/countMissingWyatt", ref = "0.1.0")
+```
+
+## Usage
+
+Load the package and use `count_all_missing_by_group()` to analyze missing values in grouped data. Here’s an example with the `airquality` dataset:
+
+```{r}
+library(countMissingWyatt)
+data(airquality)
+# Count missing values grouped by Month
+count_all_missing_by_group(airquality, Month)
+
+
+#To keep the output grouped by the grouping column, use the .groups argument:
+
+count_all_missing_by_group(airquality, Month, .groups = "keep")
+```
