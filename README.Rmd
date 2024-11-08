@@ -26,7 +26,7 @@ name: Xiang Zhang
 You can install the development version of this package from GitHub:
 
 ```{r}
-devtools::install_github("stat545ubc-2024/countMissingWyatt", ref = "0.1.0")
+devtools::install_github("stat545ubc-2024/countMissingWyatt", ref = "0.1.1")
 ```
 
 ## Usage

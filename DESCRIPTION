@@ -1,15 +1,17 @@
 Package: countMissingWyatt
-Title: What the Package Does (One Line, Title Case)
-Version: 0.1.1
+Title: Tools for Counting Missing Values by Group
+Version: 1.0.0
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
+    person("Xiang", "Zhang", , "xzhang23@ualberta.ca", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+Description: A package that provides functions for analyzing missing data by grouping levels. Includes functions for counting missing values in each column across different group levels, enhancing data quality checks and reporting.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
 Imports:
-    dplyr
-
+    dplyr,
+    datasets
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
